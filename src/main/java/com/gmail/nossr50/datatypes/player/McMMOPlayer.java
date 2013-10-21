@@ -592,7 +592,7 @@ public class McMMOPlayer {
             return;
         }
 
-        if (!EventUtils.handleXpGainEvent(player, skillType, xp)) {
+        if (!EventUtils.handleXpChangeEvent(player, skillType, xp, true)) {
             return;
         }
 
