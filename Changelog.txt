@@ -32,6 +32,7 @@ Version 1.4.07-dev
  + Added Quartz and Name Tags to the default Excavation treasures
  + Added a warning message if the server is running NoCheatPlus without CompatNoCheatPlus
  + Killing a custom entity will automatically add it to the custom entity config file with default values.
+ = Fixed bug where arrow retrieval was not properly detecting entities that already existed in the tracker
  = Fixed bug which allowed players to bypass fishing's exploit prevention
  = Fixed bug where FakeEntityDamageByEntityEvent wasn't being fired
  = Fixed bug with "Skull Splitter" not finding the locale string
